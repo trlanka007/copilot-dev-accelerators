@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "all",
+      "name": "dev-accelerators-all",
       "description": "Everything: pr-workflow, spec-driven-infra, and guardrails.",
       "version": "1.0.0",
       "source": "./plugins/all"
