@@ -1,0 +1,10 @@
+{
+  "name": "pr-workflow",
+  "description": "PR lifecycle skills and agents: Copilot review triage, CI failure fixing, PR metadata sync, check watching, and observation triage.",
+  "version": "1.0.0",
+  "author": { "name": "trlanka007" },
+  "license": "MIT",
+  "keywords": ["pull-request", "review", "ci", "triage"],
+  "agents": "agents/",
+  "skills": "skills/"
+}

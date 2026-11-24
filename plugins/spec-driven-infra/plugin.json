@@ -1,0 +1,10 @@
+{
+  "name": "spec-driven-infra",
+  "description": "Spec-driven Azure infrastructure (Bicep) skills and agents, plus a spec-first gate and workflow regression test guidance.",
+  "version": "1.0.0",
+  "author": { "name": "trlanka007" },
+  "license": "MIT",
+  "keywords": ["bicep", "azure", "iac", "spec-driven"],
+  "agents": "agents/",
+  "skills": "skills/"
+}

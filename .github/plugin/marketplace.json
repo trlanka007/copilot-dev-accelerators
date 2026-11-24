@@ -1,0 +1,34 @@
+{
+  "name": "copilot-dev-accelerators",
+  "owner": { "name": "trlanka007" },
+  "metadata": {
+    "description": "Reusable Copilot skills, agents, and hooks for PR workflows, spec-driven infrastructure, and git guardrails.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "all",
+      "description": "Everything: pr-workflow, spec-driven-infra, and guardrails.",
+      "version": "1.0.0",
+      "source": "./plugins/all"
+    },
+    {
+      "name": "pr-workflow",
+      "description": "Copilot review triage, CI failure fixing, PR metadata sync, check watching, observation triage.",
+      "version": "1.0.0",
+      "source": "./plugins/pr-workflow"
+    },
+    {
+      "name": "spec-driven-infra",
+      "description": "Spec-driven Azure Bicep infrastructure skills/agents, spec-first gate, workflow tests.",
+      "version": "1.0.0",
+      "source": "./plugins/spec-driven-infra"
+    },
+    {
+      "name": "guardrails",
+      "description": "Hook that asks before committing or pushing directly to main.",
+      "version": "1.0.0",
+      "source": "./plugins/guardrails"
+    }
+  ]
+}

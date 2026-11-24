@@ -1,0 +1,9 @@
+{
+  "name": "guardrails",
+  "description": "Hook that asks for confirmation before committing or pushing directly to main.",
+  "version": "1.0.0",
+  "author": { "name": "trlanka007" },
+  "license": "MIT",
+  "keywords": ["hooks", "git", "safety"],
+  "hooks": "hooks.json"
+}
